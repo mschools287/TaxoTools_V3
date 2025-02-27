@@ -1,0 +1,35 @@
+Package: TaxoTools
+Title: Advanced Tools for Morphology, Phylogenies, and Taxonomy
+Version: 0.0.0.9000
+Authors@R: person("Molly", "Schools", email = "molly.schools@omahazoo.com", role = c("aut", "cre"),
+                  comment = c(ORCID = "https://orcid.org/0000-0002-2687-7885"))
+Description: TaxoTools is an R package designed to streamline the process of taxonomic research and phylogenetic analysis. It provides a suite of tools for generating species descriptions, summarizing morphological traits, and comparing phylogenetic trees. With specialized functions for handling Maximum Likelihood, Bayesian, and time-calibrated phylogenies, the package simplifies tasks such as node annotation, support value summarization, and tree plotting. Additional features include morphology-based diagnostics, geographic range mapping, and data-driven appendices for monographs. Whether you're describing new species, analyzing morphological traits, or synthesizing phylogenetic datasets, TaxoTools enhances efficiency and reproducibility for researchers in taxonomy, systematics, and biodiversity science.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    phytools,
+    GGally,
+    ggplot2,
+    sf,
+    viridis,
+    rentrez,
+    xml2,
+    rnaturalearth,
+    plotly,
+    ape,
+    purrr,
+    rlang,
+    reshape2,
+    scales
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+VignetteBuilder: knitr
